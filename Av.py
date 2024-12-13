@@ -394,7 +394,6 @@ def my_account(message):
 
     bot.send_message(message.chat.id, account_info)
 
-
 if __name__ == '__main__':
     # Start the keepalive server
     keep_alive()
